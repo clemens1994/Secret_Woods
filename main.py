@@ -9,6 +9,7 @@ class Game(object):
         pygame.init()
         self.screen = pygame.display.set_mode((g_width, g_height))
         self.clock  = pygame.time.Clock()
+        pygame.display.set_caption('Secret Woods')
 
 
     def run(self):
